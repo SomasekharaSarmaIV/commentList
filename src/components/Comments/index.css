@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-container {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 40px;
+}
+.input-section {
+  display: flex;
+  justify-content: space-between;
+}
+.hline {
+  color: red;
+}
+
+.img {
+  order: 0;
+}
+.input {
+  margin-bottom: 20px;
+}
+.text-area {
+  height: 100px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.comments-list {
+  padding-left: 0;
+  margin-top: 0;
+}
